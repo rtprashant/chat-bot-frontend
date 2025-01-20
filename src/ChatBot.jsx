@@ -43,7 +43,7 @@ function ChatBot() {
             dispatch(chatend(apiRes.data))
 
         } catch (error) {
-            console.log(error.data);
+            console.log(error);
             dispatch(chaterr(error.message))
             
 
